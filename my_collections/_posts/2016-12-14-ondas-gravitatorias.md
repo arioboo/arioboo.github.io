@@ -2,6 +2,7 @@
 layout: article
 title: "Ondas gravitatorias"
 show_title: true
+tags: [Physics]
 mathjax: true
 ---
 

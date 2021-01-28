@@ -36,7 +36,4 @@ I'm developing some of the next section projects in my spare time. Anyone willin
 
 ## <a class="button button--secondary button--rounded" style="background:red"><u>Notes:</u></a>
 *There are more projects that better fit into other categories. Here I put some general or long-term projects or ideas I'd like to develop or I'm involved in.* 
-
-##### last_updated: 2021-01-24
-##### (I!) This a personal webpage with some information of interest in the topic selected. This is not intended to be a complete guide, but to provide useful guide for those interested in the topic and my personal trajectory on it.
-##### Powered by [Jekyll](https://github.com/jekyll/jekyll): [TeXT Theme](https://github.com/kitian616/jekyll-TeXt-theme)
+{% include my_home/last_updated_and_advices.md %}

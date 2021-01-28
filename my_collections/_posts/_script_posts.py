@@ -1,6 +1,7 @@
 import Portfolio.edit_frontmatter as ed
 import glob
 import pandas as pd
+import numpy as np
 
 ## RUN:
 if __name__ == "__main__":
@@ -35,4 +36,9 @@ def make_new_one(filename:str, metadata=post.metadata):
     with open(filename, "w") as f:
         f.write(ed.frontmatter.dumps(new_post))
 
+def unique_from_metadata(key="tags", df=Posts):
+    lista = [m.get(key) for m in df["metadata"].values]
+    unique = pd.Series(np.concatenate(lista).ravel()).unique()
+    return unique
 
+unique_tags = unique_from_metadata(key="tags")

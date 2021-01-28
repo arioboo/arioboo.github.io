@@ -28,6 +28,4 @@ hero_subtitle: "Here is the complete list of seminars and courses that I have as
 
 
 ## <a class="button button--secondary button--rounded" style="background:red"><u>Notes:</u></a>
-##### last_updated: 2021-01-24
-##### (I!) This a personal webpage with some information of interest in the topic selected. This is not intended to be a complete guide, but to provide useful guide for those interested in the topic and my personal trajectory on it.
-##### Powered by [Jekyll](https://github.com/jekyll/jekyll): [TeXT Theme](https://github.com/kitian616/jekyll-TeXt-theme)
+{% include my_home/last_updated_and_advices.md %}
