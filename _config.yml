@@ -60,6 +60,11 @@ collections:
         output: false
         permalink: /:collection/:name
 
+csv:
+    my_seminars:
+        source: /_data/csv/my_seminars.csv
+    my_courses:
+        source: /_data/csv/my_courses.csv
 ## => Post
 ##############################
 ## excerpt
@@ -223,3 +228,4 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - jekyll-csv
